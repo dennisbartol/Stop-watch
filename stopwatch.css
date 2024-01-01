@@ -14,3 +14,26 @@ body {
     background: #222;
 }
 
+.wrapper { 
+    user-select: none; 
+}
+
+.wrapper .time { 
+    height: 200px; 
+    background: ghostwhite;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 16px; 
+    padding: 0 10px;
+    max-width: 500px;
+}
+
+.wrapper .time span { 
+    /* width: 120px; */
+    text-align: center; 
+    font-size: 1.75em; 
+    font-weight: normal;
+    color: #222;
+}
