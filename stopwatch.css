@@ -37,3 +37,11 @@ body {
     font-weight: normal;
     color: #222;
 }
+
+.time span.colon { 
+    width: 10px; 
+}
+
+.time span.ms-colon, .time span.millisecond {
+    color: hotpink;
+}
