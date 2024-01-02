@@ -27,5 +27,10 @@ const startBtn = document.querySelector(".start"),
           min++;
           min = min < 10 ? "0" + min : min;
           sec = "0" + 0;
-          }
+         }
           
+         if (min == 60) {
+         hr++;
+         hr = hr < 10 ? "0" + hr : hr;
+         min = "0" + 0;
+        }
