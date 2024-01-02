@@ -9,3 +9,9 @@ const startBtn = document.querySelector(".start"),
       startBtn.addEventListener("click", start); 
       stopBtn.addEventListener("click", stop);
       resetBtn.addEventListener("click", reset);
+
+
+ function start() {
+        startBtn.classList.add("active"); 
+        stopBtn.classList.remove("stopActive");
+        startTimer = setInterval( () =>
