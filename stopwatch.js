@@ -22,3 +22,10 @@ const startBtn = document.querySelector(".start"),
             sec = sec < 10 ? "0" + sec : sec;
             ms = "0" + 0;
           }
+
+          if (sec == 60) {
+          min++;
+          min = min < 10 ? "0" + min : min;
+          sec = "0" + 0;
+          }
+          
