@@ -14,4 +14,11 @@ const startBtn = document.querySelector(".start"),
  function start() {
         startBtn.classList.add("active"); 
         stopBtn.classList.remove("stopActive");
-        startTimer = setInterval( () =>
+        startTimer = setInterval( () => { 
+          ms++; 
+          ms = ms < 10 ? "0" + ms : ms;
+          if(ms == 100) {
+            sec++;
+            sec = sec < 10 ? "0" + sec : sec;
+            ms = "0" + 0;
+          }
