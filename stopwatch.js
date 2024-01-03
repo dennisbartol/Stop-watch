@@ -38,4 +38,10 @@ const startBtn = document.querySelector(".start"),
   }, 10); 
 }
 
+function stop() {
+  startBtn.classList.remove("active");
+  stopBtn.classList.add("stopActive");
+  clearInterval(startTimer);
+}
+
 
