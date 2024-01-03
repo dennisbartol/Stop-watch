@@ -52,3 +52,10 @@ function reset() {
   putValue();
 }
 
+function putValue() {
+  document.querySelector(".millisecond").innerText = ms;
+  document.querySelector(".second").innerText = sec;
+  document.querySelector(".minute").innerText = min;
+  document.querySelector(".hour").innerText = hr;
+}
+
