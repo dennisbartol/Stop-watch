@@ -34,3 +34,8 @@ const startBtn = document.querySelector(".start"),
          hr = hr < 10 ? "0" + hr : hr;
          min = "0" + 0;
         }
+      putValue();
+  }, 10); 
+}
+
+
