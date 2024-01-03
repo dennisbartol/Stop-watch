@@ -1,1 +1,1 @@
-A basic stopwatch, powered by the internal clock and Javascript®
+« A basic stopwatch, powered by the internal clock and Javascript® »
