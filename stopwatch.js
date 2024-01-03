@@ -44,4 +44,11 @@ function stop() {
   clearInterval(startTimer);
 }
 
+function reset() {
+  startBtn.classList.remove("active");
+  stopBtn.classList.remove("stopActive");
+  clearInterval(startTimer);
+  hr = min = sec = ms = "0" + 0;
+  putValue();
+}
 
