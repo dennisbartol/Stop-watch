@@ -17,9 +17,11 @@ body {
 .wrapper { 
     user-select: none; 
     width: 650px; 
-    height: 650px: 
+    height: 650px;
     border-radius: 50%; 
-    display: block; 
+    display: grid; 
+    align-items: center;
+    /* justify-content: flex-start; */
     background-color: hotpink; /* Temp. focus color */
 }
 
