@@ -19,6 +19,7 @@ body {
     width: 650px; 
     height: 650px: 
     border-radius: 50%; 
+    display: block; 
     background-color: hotpink; /* Temp. focus color */
 }
 
