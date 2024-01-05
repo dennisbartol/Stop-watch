@@ -16,6 +16,10 @@ body {
 
 .wrapper { 
     user-select: none; 
+    width: 450px; 
+    height: 450px: 
+    border-radius: 50%; 
+    background-color: hotpink; /* Temp. focus color */
 }
 
 .wrapper .time { 
