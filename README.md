@@ -3,7 +3,7 @@
 <b>Making use of :</b></br>
 · Query Selectors</br>
 · Event Listeners</br>
-· Ternary Operator</br>
+· Ternary Operators</br>
 · Increment ++ Operator</br>
 · Classlist Add/Remove</br>
 · The following Functions :</br>
