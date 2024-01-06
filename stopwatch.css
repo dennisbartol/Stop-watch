@@ -20,7 +20,7 @@ body {
     height: 650px;
     border-radius: 50%; 
     display: grid; 
-    align-items: center;
+    align-self: center;
     /* justify-content: flex-start; */
     background-color: hotpink; /* Temp. focus color */
 }
