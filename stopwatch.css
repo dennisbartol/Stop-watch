@@ -28,12 +28,13 @@ body {
 
 .wrapper .time { 
     height: 200px; 
+    width: 300px; 
     background: ghostwhite;
     display: flex; 
     align-items: center; 
     justify-content: center;
     border-radius: 10px; 
-    box-shadow: 0px 0px 8px 16px #222; 
+    box-shadow: 0px 0px 16px #222; 
     padding: 0 10px;
     max-width: 500px;
 }
