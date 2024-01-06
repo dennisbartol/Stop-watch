@@ -11,5 +11,6 @@
   -Stop()</br>
   -Reset()</br>
   -putValue() (.innerText)</br>
+· Initializing several variables, as to start at counting at zero.</br>
 
 
