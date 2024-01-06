@@ -1,12 +1,12 @@
 « A basic stopwatch - Powered by the internal digital clock of computers, and Javascript® »
 
 <b>Making use of :</b></br>
-· QuerySelectors</br>
-· EventListeners</br>
+· Query Selectors</br>
+· Event Listeners</br>
 · Ternary Operator</br>
 · Increment ++ Operator</br>
-· Classlist add/remove</br>
-· The following functions :</br>
+· Classlist Add/Remove</br>
+· The following Functions :</br>
   -Start()</br>
   -Stop()</br>
   -Reset()</br>
