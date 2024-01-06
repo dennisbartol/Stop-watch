@@ -57,6 +57,7 @@ body {
 .wrapper .buttons {
     text-align: center; 
     margin-top: 25px; 
+    border-radius: 5px; 
     
 
 }
