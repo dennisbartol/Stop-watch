@@ -37,7 +37,7 @@ body {
     box-shadow: 0px 0px 16px; 
     padding: 0 10px;
     max-width: 500px;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 
 .wrapper .time span { 
