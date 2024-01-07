@@ -16,15 +16,6 @@ body {
 
 .wrapper { 
     user-select: none; 
-    width: 650px;
-    height: 650px;
-    border-radius: 50%;
-    position: absolute;
-    
-    display: grid;
-    align-items: center;
-    justify-content: center;  
-    
     
 }
 
